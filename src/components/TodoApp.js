@@ -43,7 +43,7 @@ function TodoApp (){
     return <div className="container">
         <div className="titleApp">Tu Lista de Compras y Tareas</div>
         <form className="formCreateList" onSubmit={handleSubmit}>
-            <input onChange={handleChange} className="listInput" value={title} placeholder="Que necesitas comprar?" />
+            <input onChange={handleChange} className="listInput" value={title} placeholder="Que necesitas comprar o hacer?" />
             <input onClick={handleSubmit} type="submit" value="Crear Item" className="btnCreate" />
         </form>
 
